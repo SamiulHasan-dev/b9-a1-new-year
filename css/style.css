@@ -14,6 +14,10 @@
     margin: 30px auto;
 }
 
+span {
+    color: #F00;
+}
+
 
 /* section style */
 
@@ -114,13 +118,14 @@
 .banner-style {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
-.banner-color{
+.banner-color {
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     border-radius: 16px;
 }
+
 .container-party {
     max-width: 700px;
     margin-left: 100px;
@@ -148,7 +153,7 @@
     margin-bottom: 20px;
 }
 
-.container-party > a{
+.container-party>a {
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -165,11 +170,45 @@
 .content-party-img {
     width: 400px;
     padding: 60px 80px 60px 30px;
-    
+
 }
 
-.party-img{
+.party-img {
     width: 230px;
     height: 350px;
     background-size: cover;
+}
+
+
+.meeting {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    text-align: center;
+    border-radius: 16px;
+    margin-top: 100px;
+}
+
+.content-meeting-place {
+    padding: 100px 280px 50px 280px;
+}
+
+.content-meeting {
+    font-size: 22px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.content-meeting-place > button {
+    border-radius: 8px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 0;
+    padding: 12px 20px;
+    margin-top: 25px;
 }
