@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* section style */
+
+.banner {
+
+    background-image: url('../images/BannerImage.png');
+    width: 80%;
+    /* height: 80vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 30px auto;
+    border-radius: 16px;
+    
+}
+
+.banner-contain {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 150px;
+
+}
+
+.banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 52px;
+    font-weight: 900;
+    padding-bottom: 150px;
+}
