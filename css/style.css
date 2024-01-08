@@ -12,6 +12,7 @@
 .style-share {
     width: 80%;
     margin: 30px auto;
+    display: block;
 }
 
 span {
@@ -322,7 +323,7 @@ span {
     padding: 10px 0;
 }
 
-.holiday-sale > span {
+.holiday-sale>span {
     text-align: center;
     font-family: Merriweather;
     font-size: 45px;
@@ -330,7 +331,7 @@ span {
     padding: 10px 0;
 }
 
-.holiday-sale{
+.holiday-sale {
     color: #070211;
     font-family: Merriweather;
     font-size: 45px;
@@ -344,6 +345,87 @@ span {
     font-size: 12px;
     font-weight: 500;
     line-height: 20px;
-    padding: 10px 20px;
+    padding: 10px 20px 40px 20px;
     margin: 0 80px;
+}
+
+.holiday-image-section {}
+
+.holiday-img {
+    background-image: url('../images/Rectangle2.png'), url('/images/Rectangle1.png');
+    background-position: bottom, top right;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.img-box {
+    width: 600px;
+    height: 400px;
+    padding-left: 150px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.img-discount {
+    width: 200px;
+    height: 200px;
+    padding-right: 450px;
+    padding-top: 120px;
+    margin-bottom: 330px;
+    /* z-index: 1; */
+}
+
+
+/* Product section */
+
+.product-best {
+    text-align: left;
+    padding-right: 300px;
+    padding-top: 80px;
+}
+
+.product-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.product-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.product-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 0;
+}
+
+.product-demo {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.product-img {
+    height: 380px;
+    width: 320px;
+    border-radius: 16px;
+}
+
+.product-img:hover {
+    border: 3px solid green;
 }
