@@ -299,9 +299,51 @@ span {
     padding: 10px 0;
 }
 
-.img-year{
+.img-year {
     pad: 40px 0;
     height: 100px;
     width: 100px;
     background-size: cover;
+}
+
+/* Holiday Sale Section */
+
+.contain-holiday {
+    padding: 70px 126px 0 126px;
+    text-align: center;
+}
+
+.holiday-function {
+    color: #070211;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.holiday-sale > span {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.holiday-sale{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.holiday-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 20px;
+    margin: 0 80px;
 }
