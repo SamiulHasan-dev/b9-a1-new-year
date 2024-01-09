@@ -6,6 +6,10 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+body {
+    max-width: 1280px;
+}
+
 
 /* shareable css */
 
@@ -420,6 +424,10 @@ span {
     margin-bottom: 24px;
 }
 
+.product-style {
+    margin-bottom: 80px;
+}
+
 .product-img {
     height: 380px;
     width: 320px;
@@ -428,4 +436,119 @@ span {
 
 .product-img:hover {
     border: 3px solid green;
+}
+
+/* Subscribe Section */
+
+.contain-subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    margin: auto;
+    padding: 80px 140px;
+
+}
+
+.Subscribe-img {
+    width: 100px;
+    height: 100px;
+    padding: 10px 0;
+}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 28px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+.subscribe-description {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 0 20px 0;
+}
+
+
+
+.subscribe-email {
+    padding: 8px 15px;
+    margin-right: -12px;
+    font-size: 14px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    border: 0;
+}
+
+.subscribe-button {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    padding: 9px 15px;
+    border: 0;
+}
+
+
+/* Footer Section */
+
+footer{
+    background-color: brown;
+}
+
+
+.container-address{
+    display: flex;
+    /* justify-content: space-between; */
+    
+}
+
+.physical{
+    width: 50%;
+    padding: 80px 0px;
+    text-align: left;
+}
+
+.address-bar{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 14px;
+padding: 0 150px 0 0;
+line-height: 20px;
+}
+
+.contact-virtual{
+    width: 50%;
+    margin: auto; 
+    align-items: center;
+}
+
+.phone-contact{
+    display: flex;
+    
+    /* margin: auto; */
+    align-items: center;
+}
+.contact-img{
+    height: 12px;
+    width: 12px;
+    padding: 5px 0 3px 3px;
+}
+
+.contact-text{
+    color: #FFF;
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+padding: 5px 0 3px 3px;
 }
