@@ -356,7 +356,7 @@ span {
 .holiday-image-section {}
 
 .holiday-img {
-    background-image: url('../images/Rectangle2.png'), url('/images/Rectangle1.png');
+    background-image: url('../images/Rectangle2.png'), url('../images/Rectangle1.png');
     background-position: bottom, top right;
     background-repeat: no-repeat;
     display: flex;
